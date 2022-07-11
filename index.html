@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="title">Event delegation</h1>
+        <div class="card">
+          <h2 class="card-title">
+            Selected tag is <span data-selected></span>
+          </h2>
+          <form id="form">
+            <label for="feature" class="label">Feature name</label>
+            <input
+              id="feature"
+              name="feature"
+              type="text"
+              class="feature-input"
+            />
+          </form>
+          <div class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem
+            ex quo totam tenetur cupiditate. Minus delectus quibusdam beatae
+            impedit.
+          </div>
+          <div class="tags">
+            <button
+              data-name="Css"
+              data-value="100"
+              data-super-name="Super"
+              class="tag"
+            >
+              Css
+            </button>
+            <button data-name="React" class="tag">React</button>
+            <button data-name="Node.js" class="tag">Node.js</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./srcipts/index.js"></script>
+  </body>
+</html>
