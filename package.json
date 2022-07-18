@@ -1,0 +1,34 @@
+{
+  "name": "substitute",
+  "version": "1.0.0",
+  "description": "Super description",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open mode --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venikeee1/substitute.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Venikeee1/substitute/issues"
+  },
+  "homepage": "https://github.com/Venikeee1/substitute#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "swiper": "^8.3.1"
+  }
+}
